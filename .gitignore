@@ -1,0 +1,44 @@
+# Secrets
+.env
+
+# Personal job application data — never commit
+data/resume_reference.csv
+data/pdf_resumes_list.csv
+data/job_descriptions_list.csv
+data/job_descriptions_pdf_list.csv
+data/review/
+
+# ChromaDB vector store (large, personal)
+db/
+
+# Inbox folder — ignore contents but keep the folder itself
+new_jobs/*
+!new_jobs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# VS Code / Cursor
+.vscode/
+.cursorrules
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Plots and analysis outputs (personal)
+analysis/__pycache__/
+data/review/historical_plots/
+data/review/comparison/
+*.png
