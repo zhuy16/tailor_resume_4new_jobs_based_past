@@ -1,4 +1,4 @@
-# tailor_resume_4new_jobs_based_past
+# rag-resume-tailor
 
 ![version](https://img.shields.io/badge/version-0.1.0-blue)
 ![python](https://img.shields.io/badge/python-3.11+-blue)
