@@ -6,7 +6,9 @@
 
 A local RAG pipeline that tailors your resume for new job applications by learning from your own past applications.
 
-**Core idea:** your best reference for any new job is a resume you already wrote for something similar. This tool finds that match automatically, then uses Claude to rewrite it for the new role.
+**Core idea:** your best reference for any new job is a resume you already wrote for something similar. This tool finds that match automatically, then uses Claude to rewrite it for the new role — eliminating the repetitive, mechanical parts of resume tailoring so you can focus your energy on the parts that actually require judgment.
+
+> **Note for reviewers:** The output of this pipeline is a first draft, not a final product. Every resume sent to a company goes through manual review, personal editing, and fine-tuning before submission. The tool handles the boilerplate so the human can focus on substance.
 
 ---
 

@@ -100,7 +100,7 @@ conda run -n job-rag python tailor.py
 | 3 | Prints similarity scores and outcomes for each match |
 | 4 | Finds the resume (prefers DOCX) you used for the top match |
 | 5 | Calls Claude to rewrite a complete tailored resume |
-| 6 | Saves `new_jobs/tailored_<jd-name>.docx` |
+| 6 | Saves `new_jobs/tailored_<jd-name>.docx` — **review and edit before sending** |
 
 ### CLI options
 ```bash
